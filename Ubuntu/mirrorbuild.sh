@@ -35,7 +35,7 @@ release=trusty,trusty-security,trusty-updates, \
 # CHANGE "*" to equal the mirror you want to create your mirror from. au. in Australia  ca. in Canada.
 # This can be found in your own /etc/apt/sources.list file, assuming you have Ubuntu installed.
 #
-server=archive.ubuntu.com
+server=mirrors.ustc.edu.cn
 
 # Dir=          -r      # Path from the main server, so http://my.web.server/$dir, Server dependant
 #
