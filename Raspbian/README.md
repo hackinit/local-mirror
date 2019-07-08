@@ -1,10 +1,10 @@
-# Ubuntu 镜像源
+# Raspbian 镜像源
 
 ## 简要说明
 
-这个项目使用 [`apt-mirror`](https://github.com/apt-mirror/apt-mirror) 在 Ubuntu 系统上搭建 Ubuntu 16.04 18.04 18.10 19.04 四个 Release 的镜像源。
+这个项目使用 [`apt-mirror`](https://github.com/apt-mirror/apt-mirror) 在 Ubuntu 系统上搭建 Raspbian Jessie Stretch Butler 三个 Release 的镜像源。
 
-镜像源会被储存在 `/mnt/Ubuntu` 目录下，建议在 `/mnt` 目录下单独挂载一块硬盘。
+镜像源会被储存在 `/mnt/Raspbian` 目录下，建议在 `/mnt` 目录下单独挂载一块硬盘。
 
 ## 服务端使用方法
 
@@ -41,11 +41,9 @@ $ sudo vim /etc/apt/source.list
 加入以下内容
 
 ```
-deb http://<服务器IP>[:PORT]/ubuntu/ <Release> main restricted universe multiverse
-deb http://<服务器IP>[:PORT]/ubuntu/ <Release>-security main restricted universe multiverse
-deb http://<服务器IP>[:PORT]/ubuntu/ <Release>-updates main restricted universe multiverse
-deb http://<服务器IP>[:PORT]/ubuntu/ <Release>-proposed main restricted universe multiverse
-deb http://<服务器IP>[:PORT]/ubuntu/ <Release>-backport main restricted universe multiverse
+deb http://<服务器IP>[:PORT]/raspbian/ <Release> main contrib non-free rpi
+deb-src http://<服务器IP>[:PORT]/raspbian/ <Release> main contrib non-free rpi
+
 ```
 
 ### 更新软件源
