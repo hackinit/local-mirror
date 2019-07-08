@@ -16,55 +16,55 @@ set use_proxy         off
 # set proxy_password    password
 
 # 16.04 mirroring
-deb-amd64 http://archive.ubuntu.com/ubuntu xenial main restricted universe multiverse
-deb-amd64 http://archive.ubuntu.com/ubuntu xenial-security main restricted universe multiverse
-deb-amd64 http://archive.ubuntu.com/ubuntu xenial-updates main restricted universe multiverse
-deb-amd64 http://archive.ubuntu.com/ubuntu xenial-proposed main restricted universe multiverse
-deb-amd64 http://archive.ubuntu.com/ubuntu xenial-backports main restricted universe multiverse
+deb-amd64 http://mirrors.ustc.edu.cn/ubuntu xenial main restricted universe multiverse
+deb-amd64 http://mirrors.ustc.edu.cn/ubuntu xenial-security main restricted universe multiverse
+deb-amd64 http://mirrors.ustc.edu.cn/ubuntu xenial-updates main restricted universe multiverse
+deb-amd64 http://mirrors.ustc.edu.cn/ubuntu xenial-proposed main restricted universe multiverse
+deb-amd64 http://mirrors.ustc.edu.cn/ubuntu xenial-backports main restricted universe multiverse
 
-deb-i386 http://archive.ubuntu.com/ubuntu xenial main restricted universe multiverse
-deb-i386 http://archive.ubuntu.com/ubuntu xenial-security main restricted universe multiverse
-deb-i386 http://archive.ubuntu.com/ubuntu xenial-updates main restricted universe multiverse
-deb-i386 http://archive.ubuntu.com/ubuntu xenial-proposed main restricted universe multiverse
-deb-i386 http://archive.ubuntu.com/ubuntu xenial-backports main restricted universe multiverse
+deb-i386 http://mirrors.ustc.edu.cn/ubuntu xenial main restricted universe multiverse
+deb-i386 http://mirrors.ustc.edu.cn/ubuntu xenial-security main restricted universe multiverse
+deb-i386 http://mirrors.ustc.edu.cn/ubuntu xenial-updates main restricted universe multiverse
+deb-i386 http://mirrors.ustc.edu.cn/ubuntu xenial-proposed main restricted universe multiverse
+deb-i386 http://mirrors.ustc.edu.cn/ubuntu xenial-backports main restricted universe multiverse
 
 # 18.04 mirroring
-deb-amd64 http://archive.ubuntu.com/ubuntu bionic main restricted universe multiverse
-deb-amd64 http://archive.ubuntu.com/ubuntu bionic-security main restricted universe multiverse
-deb-amd64 http://archive.ubuntu.com/ubuntu bionic-updates main restricted universe multiverse
-deb-amd64 http://archive.ubuntu.com/ubuntu bionic-proposed main restricted universe multiverse
-deb-amd64 http://archive.ubuntu.com/ubuntu bionic-backports main restricted universe multiverse
+deb-amd64 http://mirrors.ustc.edu.cn/ubuntu bionic main restricted universe multiverse
+deb-amd64 http://mirrors.ustc.edu.cn/ubuntu bionic-security main restricted universe multiverse
+deb-amd64 http://mirrors.ustc.edu.cn/ubuntu bionic-updates main restricted universe multiverse
+deb-amd64 http://mirrors.ustc.edu.cn/ubuntu bionic-proposed main restricted universe multiverse
+deb-amd64 http://mirrors.ustc.edu.cn/ubuntu bionic-backports main restricted universe multiverse
 
-deb-i386 http://archive.ubuntu.com/ubuntu bionic main restricted universe multiverse
-deb-i386 http://archive.ubuntu.com/ubuntu bionic-security main restricted universe multiverse
-deb-i386 http://archive.ubuntu.com/ubuntu bionic-updates main restricted universe multiverse
-deb-i386 http://archive.ubuntu.com/ubuntu bionic-proposed main restricted universe multiverse
-deb-i386 http://archive.ubuntu.com/ubuntu bionic-backports main restricted universe multiverse
+deb-i386 http://mirrors.ustc.edu.cn/ubuntu bionic main restricted universe multiverse
+deb-i386 http://mirrors.ustc.edu.cn/ubuntu bionic-security main restricted universe multiverse
+deb-i386 http://mirrors.ustc.edu.cn/ubuntu bionic-updates main restricted universe multiverse
+deb-i386 http://mirrors.ustc.edu.cn/ubuntu bionic-proposed main restricted universe multiverse
+deb-i386 http://mirrors.ustc.edu.cn/ubuntu bionic-backports main restricted universe multiverse
 
 # 18.10 mirroring
-deb-amd64 http://archive.ubuntu.com/ubuntu cosmic main restricted universe multiverse
-deb-amd64 http://archive.ubuntu.com/ubuntu cosmic-security main restricted universe multiverse
-deb-amd64 http://archive.ubuntu.com/ubuntu cosmic-updates main restricted universe multiverse
-deb-amd64 http://archive.ubuntu.com/ubuntu cosmic-proposed main restricted universe multiverse
-deb-amd64 http://archive.ubuntu.com/ubuntu cosmic-backports main restricted universe multiverse
+deb-amd64 http://mirrors.ustc.edu.cn/ubuntu cosmic main restricted universe multiverse
+deb-amd64 http://mirrors.ustc.edu.cn/ubuntu cosmic-security main restricted universe multiverse
+deb-amd64 http://mirrors.ustc.edu.cn/ubuntu cosmic-updates main restricted universe multiverse
+deb-amd64 http://mirrors.ustc.edu.cn/ubuntu cosmic-proposed main restricted universe multiverse
+deb-amd64 http://mirrors.ustc.edu.cn/ubuntu cosmic-backports main restricted universe multiverse
 
-deb-i386 http://archive.ubuntu.com/ubuntu cosmic main restricted universe multiverse
-deb-i386 http://archive.ubuntu.com/ubuntu cosmic-security main restricted universe multiverse
-deb-i386 http://archive.ubuntu.com/ubuntu cosmic-updates main restricted universe multiverse
-deb-i386 http://archive.ubuntu.com/ubuntu cosmic-proposed main restricted universe multiverse
-deb-i386 http://archive.ubuntu.com/ubuntu cosmic-backports main restricted universe multiverse
+deb-i386 http://mirrors.ustc.edu.cn/ubuntu cosmic main restricted universe multiverse
+deb-i386 http://mirrors.ustc.edu.cn/ubuntu cosmic-security main restricted universe multiverse
+deb-i386 http://mirrors.ustc.edu.cn/ubuntu cosmic-updates main restricted universe multiverse
+deb-i386 http://mirrors.ustc.edu.cn/ubuntu cosmic-proposed main restricted universe multiverse
+deb-i386 http://mirrors.ustc.edu.cn/ubuntu cosmic-backports main restricted universe multiverse
 
 # 19.04 mirroring
-deb-amd64 http://archive.ubuntu.com/ubuntu disco main restricted universe multiverse
-deb-amd64 http://archive.ubuntu.com/ubuntu disco-security main restricted universe multiverse
-deb-amd64 http://archive.ubuntu.com/ubuntu disco-updates main restricted universe multiverse
-deb-amd64 http://archive.ubuntu.com/ubuntu disco-proposed main restricted universe multiverse
-deb-amd64 http://archive.ubuntu.com/ubuntu disco-backports main restricted universe multiverse
+deb-amd64 http://mirrors.ustc.edu.cn/ubuntu disco main restricted universe multiverse
+deb-amd64 http://mirrors.ustc.edu.cn/ubuntu disco-security main restricted universe multiverse
+deb-amd64 http://mirrors.ustc.edu.cn/ubuntu disco-updates main restricted universe multiverse
+deb-amd64 http://mirrors.ustc.edu.cn/ubuntu disco-proposed main restricted universe multiverse
+deb-amd64 http://mirrors.ustc.edu.cn/ubuntu disco-backports main restricted universe multiverse
 
-deb-i386 http://archive.ubuntu.com/ubuntu disco main restricted universe multiverse
-deb-i386 http://archive.ubuntu.com/ubuntu disco-security main restricted universe multiverse
-deb-i386 http://archive.ubuntu.com/ubuntu disco-updates main restricted universe multiverse
-deb-i386 http://archive.ubuntu.com/ubuntu disco-proposed main restricted universe multiverse
-deb-i386 http://archive.ubuntu.com/ubuntu disco-backports main restricted universe multiverse
+deb-i386 http://mirrors.ustc.edu.cn/ubuntu disco main restricted universe multiverse
+deb-i386 http://mirrors.ustc.edu.cn/ubuntu disco-security main restricted universe multiverse
+deb-i386 http://mirrors.ustc.edu.cn/ubuntu disco-updates main restricted universe multiverse
+deb-i386 http://mirrors.ustc.edu.cn/ubuntu disco-proposed main restricted universe multiverse
+deb-i386 http://mirrors.ustc.edu.cn/ubuntu disco-backports main restricted universe multiverse
 
-clean http://archive.ubuntu.com/ubuntu
+clean http://mirrors.ustc.edu.cn/ubuntu
