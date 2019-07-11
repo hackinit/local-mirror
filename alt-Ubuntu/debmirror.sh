@@ -25,11 +25,7 @@ section=main,restricted,universe,multiverse
 # List of updated releases in: https://wiki.ubuntu.com/Releases
 #
 
-release=trusty,trusty-security,trusty-updates, \
-                xenial,xenial-security,xenial-updates, \
-                bionic,bionic-updates,bionic-security, \
-                cosmic,cosmic-updates,cosmic-security, \
-                disco,disco-updates,disco-security
+release=bionic,bionic-updates,bionic-security,cosmic,cosmic-updates,cosmic-security,disco,disco-updates,disco-security
 
 # Server=       -h      # Server name, minus the protocol and the path at the end
 # CHANGE "*" to equal the mirror you want to create your mirror from. au. in Australia  ca. in Canada.
@@ -57,15 +53,15 @@ outPath=/home/UbuntuMirror
 # --nocleanup  Do not clean up the local mirror after mirroring is complete. Use this option to keep older repository
 # Start script
 #
-debmirror       -a $arch \
-                --no-source \
-                -s $section \
-                -h $server \
-                -d $release \
-                -r $inPath \
-                --progress \
-                --method=$proto \
-                $outPath
+debmirror   -a $arch \
+            --no-source \
+            -s $section \
+            -h $server \
+            -d $release \
+            -r $inPath \
+            --progress \
+            -method=$proto \
+            $outPath
 
 
 #### End script to automate building of Ubuntu mirror ####
