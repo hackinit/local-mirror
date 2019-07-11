@@ -25,13 +25,17 @@ section=main,restricted,universe,multiverse
 # List of updated releases in: https://wiki.ubuntu.com/Releases
 #
 
-release=trusty,trusty-security,trusty-updates
+release=trusty,trusty-security,trusty-updates, \
+                xenial,xenial-security,xenial-updates, \
+                bionic,bionic-updates,bionic-security, \
+                cosmic,cosmic-updates,cosmic-security, \
+                disco,disco-updates,disco-security
 
 # Server=       -h      # Server name, minus the protocol and the path at the end
 # CHANGE "*" to equal the mirror you want to create your mirror from. au. in Australia  ca. in Canada.
 # This can be found in your own /etc/apt/sources.list file, assuming you have Ubuntu installed.
 #
-server=archive.ubuntu.com
+server=mirrors.sjtug.sjtu.edu.cn
 
 # Dir=          -r      # Path from the main server, so http://my.web.server/$dir, Server dependant
 #
@@ -40,7 +44,7 @@ inPath=/ubuntu
 # Proto=        --method=       # Protocol to use for transfer (http, ftp, hftp, rsync)
 # Choose one - http is most usual the service, and the service must be available on the server you point at.
 #
-proto=http
+proto=https
 
 # Outpath=              # Directory to store the mirror in
 # Make this a full path to where you want to mirror the material.
